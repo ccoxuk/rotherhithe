@@ -141,7 +141,7 @@ Lessons from Stage 6 (Sustain/Conclude) feed back into Stage 1 (Discovery) for f
     <p>1. [Partner Name] - [Value: £___]
 2. [Partner Name] - [Value: £___]
 3. [Partner Name] - [Value: £___]</p>
-    <textarea id="specialist-partnerships-partnershiptargets" class="user-note" placeholder="Type your notes here... (Auto-saved)"></textarea>
+    <textarea id="toolkit-partnerships-playbook-partnershiptargets" class="user-note" placeholder="Type your notes here... (Auto-saved)"></textarea>
 </div>
 
 

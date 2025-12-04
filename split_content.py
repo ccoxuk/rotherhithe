@@ -18,17 +18,13 @@ HEADER_MAP = {
     r"^7\. \*\*Planning & Permissions\*\*": "specialist/planning.md",
     r"^8\. \*\*Health, Safety & Accessibility\*\*": "specialist/health-safety.md",
     r"^9\. \*\*Financial Management\*\*": "specialist/finance.md",
-    r"^10\. \*\*Community & Partnerships\*\*": "specialist/partnerships.md",
+    r"^10\. \*\*Community & Partnerships\*\*": "specialist/partnerships-chapter.md",
     
-    r"^## Appendix 13\.5": "toolkit/risk-register.md",
-    r"^## Appendix 13\.6": "toolkit/audience-survey.md",
-    r"^## Appendix 13\.8": "toolkit/funder-report.md",
-    r"^## Appendix 13\.9": "toolkit/hs-checklist.md",
-    r"^## Appendix 13\.10": "toolkit/closure-checklist.md",
-    # Rail Safety Addendum is 13.11 but mapped to specialist above. 
-    # We might want it in toolkit too or just link it. Let's map it to toolkit as well if it appears differently?
-    # Actually, the manual has "6. Railway-Adjacent..." which links to Appx 13.11.
-    # Let's stick to the manual's flow.
+    r"^### 13\.5": "toolkit/risk-register.md",
+    r"^### 13\.6": "toolkit/audience-survey.md",
+    r"^### 13\.8": "toolkit/funder-report.md",
+    r"^### 13\.9": "toolkit/hs-checklist.md",
+    r"^### 13\.10": "toolkit/closure-checklist.md",
     
     r"^## Appendix 13\.12": "toolkit/gdpr.md",
     r"^## Appendix 13\.13": "toolkit/accessibility.md",
@@ -37,7 +33,7 @@ HEADER_MAP = {
     r"^## Appendix 13\.16": "toolkit/milestones.md",
     r"^## Appendix 13\.17": "toolkit/post-project.md",
     r"^## Appendix 13\.18": "toolkit/budget.md",
-    r"^## Appendix 13\.19": "specialist/partnerships.md", # 13.19 is Partnerships Playbook
+    r"^## Appendix 13\.19": "toolkit/partnerships-playbook.md", # 13.19 is Partnerships Playbook
     r"^## Appendix 13\.20": "toolkit/procurement.md",
     r"^## Appendix 13\.21": "toolkit/mou.md",
     r"^## Appendix 13\.22": "toolkit/dpa.md",
