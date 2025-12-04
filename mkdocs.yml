@@ -1,9 +1,10 @@
-site_name: Rotherhithe Theatre Manual
+site_name: HelpWorks Housing Portal
 site_url: https://rotherhithe.navigategov.uk
 site_author: Craig Cox
-site_description: Interactive Workbook and Guide for Venue Development
+site_description: Secure housing support and guidance
 repo_name: rotherhithe
 repo_url: https://github.com/ccoxuk/rotherhithe
+copyright: HelpWorks — Guiding you to housing security
 
 nav:
   - Home: index.md
@@ -47,15 +48,18 @@ nav:
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: amber
+      primary: custom
+      accent: custom
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: amber
+      primary: custom
+      accent: custom
   features:
     - navigation.expand
     - navigation.top

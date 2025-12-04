@@ -1,46 +1,120 @@
-/* Custom CSS for Rotherhithe Theatre Manual */
+/* HelpWorks Housing Portal - Brand Theme */
 
-/* Interactive Block Styling */
-.interactive-block {
-    background-color: #f8f9fa;
-    border-left: 4px solid #ffc107; /* Amber accent */
-    padding: 1rem;
-    margin: 1.5rem 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+:root {
+    /* Brand Palette */
+    --hw-navy: #1C2430;
+    --hw-ivory: #F4EFE5;
+    --hw-charcoal: #2D2D2D;
+    --hw-brass: #C2A46D;
+    --hw-deep-navy: #151b24;
+    
+    /* Material Theme Overrides */
+    --md-primary-fg-color: var(--hw-navy);
+    --md-primary-bg-color: var(--hw-ivory);
+    --md-accent-fg-color: var(--hw-brass);
+    
+    /* Typography */
+    --md-text-font: "Inter", sans-serif;
+    --md-code-font: "Roboto Mono", monospace;
+    --md-typeset-h1-font-family: "Playfair Display", serif;
+    --md-typeset-h2-font-family: "Playfair Display", serif;
+    --md-typeset-h3-font-family: "Playfair Display", serif;
 }
 
-.interactive-block h3, .interactive-block strong {
-    color: #2c3e50;
-    display: block;
-    margin-bottom: 0.5rem;
+/* Light Mode Overrides */
+[data-md-color-scheme="default"] {
+    --md-default-bg-color: var(--hw-ivory);
+    --md-default-fg-color: var(--hw-charcoal);
+    --md-admonition-bg-color: #ffffff;
+}
+
+/* Dark Mode Overrides (Camouflage Mode) */
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: var(--hw-navy);
+    --md-default-fg-color: var(--hw-ivory);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--md-typeset-h1-font-family) !important;
+    color: var(--hw-navy);
+}
+
+/* Interactive Block Styling (Cards) */
+.interactive-block {
+    background-color: #ffffff;
+    border-left: 4px solid var(--hw-brass);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(28, 36, 48, 0.05);
+}
+
+.interactive-block h3 {
+    color: var(--hw-navy);
+    margin-top: 0;
 }
 
 /* Textarea for user input */
 .user-note {
     width: 100%;
     min-height: 100px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-family: var(--md-text-font);
     font-size: 0.95rem;
     margin-top: 0.5rem;
     resize: vertical;
-    background-color: #fff;
-    transition: border-color 0.3s ease;
+    background-color: #fafafa;
+    transition: all 0.2s ease;
 }
 
 .user-note:focus {
-    border-color: #3f51b5; /* Indigo primary */
+    border-color: var(--hw-navy);
     outline: none;
-    box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+    box-shadow: 0 0 0 3px rgba(28, 36, 48, 0.1);
+}
+
+/* Buttons (Pill Shape) */
+.md-button {
+    border-radius: 50px;
+    background: linear-gradient(to right, var(--hw-navy), var(--hw-deep-navy));
+    color: var(--hw-ivory) !important;
+    font-weight: 500;
+    padding: 0.6em 1.4em;
+    transition: transform 0.1s ease;
+}
+
+.md-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(28, 36, 48, 0.2);
+}
+
+.md-button--primary {
+    background-color: var(--hw-navy) !important;
+    border-color: var(--hw-navy) !important;
+}
+
+/* Header Styling */
+.md-header {
+    background-color: var(--hw-navy) !important;
+}
+
+.md-header__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+/* Footer Styling */
+.md-footer {
+    background-color: var(--hw-navy) !important;
 }
 
 /* Save Status Indicator */
 .save-status {
     font-size: 0.8rem;
-    color: #27ae60;
+    color: var(--hw-brass);
     margin-top: 5px;
     text-align: right;
     font-style: italic;
