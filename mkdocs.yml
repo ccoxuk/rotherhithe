@@ -1,0 +1,76 @@
+site_name: Rotherhithe Theatre Manual
+site_author: Craig Cox
+site_description: Interactive Workbook and Guide for Venue Development
+repo_name: xenginex-site
+repo_url: https://github.com/ccoxuk/xenginex-site
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Executive Summary: getting-started/executive-summary.md
+    - How to Use: getting-started/how-to-use.md
+    - 7-Day Quick Start: getting-started/quick-start.md
+  - Core Phases:
+    - Phase 1: Discovery: phases/discovery.md
+    - Phase 2: Implementation: phases/implementation.md
+    - Phase 3: Closure: phases/closure.md
+  - Specialist Guidance:
+    - Rail Safety (Critical): specialist/rail-safety.md
+    - Planning & Permissions: specialist/planning.md
+    - Health & Safety: specialist/health-safety.md
+    - Finance: specialist/finance.md
+    - Partnerships: specialist/partnerships.md
+  - Toolkit & Templates:
+    - Risk Register: toolkit/risk-register.md
+    - Audience Survey: toolkit/audience-survey.md
+    - Funder Report: toolkit/funder-report.md
+    - H&S Checklist: toolkit/hs-checklist.md
+    - Closure Checklist: toolkit/closure-checklist.md
+    - Rail Safety Addendum: toolkit/rail-safety-addendum.md
+    - GDPR & Privacy: toolkit/gdpr.md
+    - Accessibility: toolkit/accessibility.md
+    - Director Playbook: toolkit/director-playbook.md
+    - RACI Matrix: toolkit/raci.md
+    - Milestones: toolkit/milestones.md
+    - Post-Project Eval: toolkit/post-project.md
+    - Budget Model: toolkit/budget.md
+    - Procurement: toolkit/procurement.md
+    - Sample MoU: toolkit/mou.md
+    - Sample DPA: toolkit/dpa.md
+    - GANTT Guide: toolkit/gantt.md
+    - Legal Review: toolkit/legal-review.md
+  - Resources:
+    - Contacts: resources/contacts.md
+    - Glossary: resources/glossary.md
+    - Bibliography: resources/bibliography.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+  features:
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/workbook.js

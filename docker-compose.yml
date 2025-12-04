@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  manual-site:
+    build: .
+    container_name: rotherhithe-manual
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs
+    restart: unless-stopped
