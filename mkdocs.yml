@@ -13,11 +13,11 @@ nav:
     - How to Use: getting-started/how-to-use.md
     - 7-Day Quick Start: getting-started/quick-start.md
   - Core Phases:
-    - Phase 1: Discovery: phases/discovery.md
-    - Phase 2: Implementation: phases/implementation.md
-    - Phase 3: Closure: phases/closure.md
+    - "Phase 1: Discovery": phases/discovery.md
+    - "Phase 2: Implementation": phases/implementation.md
+    - "Phase 3: Closure": phases/closure.md
   - Specialist Guidance:
-    - Rail Safety (Critical): specialist/rail-safety.md
+    - "Rail Safety (Critical)": specialist/rail-safety.md
     - Planning & Permissions: specialist/planning.md
     - Health & Safety: specialist/health-safety.md
     - Finance: specialist/finance.md
