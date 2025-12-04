@@ -45,6 +45,7 @@ nav:
     - Contacts: resources/contacts.md
     - Glossary: resources/glossary.md
     - Bibliography: resources/bibliography.md
+    - Feedback & Support: feedback.md
 
 theme:
   name: material
