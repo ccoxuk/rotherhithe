@@ -86,7 +86,7 @@ Funders need to see that their investment was managed prudently. Present varianc
 
 **Budget Performance Comparison (Visual)**
 
-```
+```text
 EXPENDITURE CATEGORY          BUDGETED vs ACTUAL          VARIANCE
 ═══════════════════════════════════════════════════════════════════════
 
@@ -115,8 +115,7 @@ Contingency (15%)          ████████████████ (48%
 TOTAL PROJECT              ████████████████ (-2%)       🟢 ON BUDGET
 £79,350 budget            ███████████████ £77,498 actual
 
-█ = £1,000    ░ = Variance    🟢 = Good    🟡 = Acceptable    🔴 = Concern
-```
+█ = £1,000    ░ = Variance    🟢 = Good    🟡 = Acceptable    🔴 = Concern```
 
 **Variance Analysis Summary:**
 

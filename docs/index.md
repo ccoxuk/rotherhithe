@@ -1,32 +1,58 @@
-# ROTHERHITHE THEATRE PROJECT: INTERACTIVE WORKBOOK
-**Digital Edition v1.0**
-*Based on the Comprehensive Manual v1.2*
+# Welcome to HelpWorks Housing Portal
+
+<div class="hero-section" markdown="1">
+
+## Guiding you to housing security
+
+**HelpWorks Housing Portal** provides expert guidance for developing community housing projects—from initial concept through successful delivery.
+
+Whether you're launching a temporary venue, permanent facility, or complex urban development, this portal delivers structured frameworks, regulatory guidance, and proven templates to ensure your project succeeds.
+
+</div>
 
 ---
 
-## HOW TO USE THIS WORKBOOK
-This document is your "Project Bible". It contains the full guidance from the original manual, but adds **Interactive Blocks** for you to record your specific project data.
+## What You'll Find Here
 
-**Instructions:**
-1. **Read** the guidance in each section.
-2. **Complete** the "Interactive Block" at the end of the section.
-3. **Save** this file as `My_Project_Workbook.md`.
-4. **Update** it weekly as your project progresses.
+### 1. Getting Started
+Strategic overviews and quick-start guidance to orient your project from day one.
 
----
+### 2. Project Phases
+Structured frameworks for **Discovery**, **Implementation**, and **Closure**—each with clear deliverables and decision points.
 
-# COMPREHENSIVE MANUAL FOR THE ROTHERHITHE THEATRE PROJECT
+### 3. Specialist Guidance
+Expert advice on critical areas: rail safety, planning permissions, health & safety, finance, and partnerships.
 
-## From Conception to Closure
+### 4. Toolkit & Templates
+Ready-to-use resources: risk registers, budget models, checklists, legal templates, and compliance frameworks.
 
-### A Complete Guide to Developing Temporary and Permanent Theatre Venues in Complex Urban Environments
-
----
-
-**Version 1.2** | **4 December 2025** | **Craig Cox MCIPR**
+### 5. Resources
+Essential contacts, glossary, bibliography, and support channels.
 
 ---
 
-<div style="page-break-after: always;"></div>
+## How to Navigate
 
-<a id="executive-summary"></a>
+Use the **navigation menu** to access any section directly. Each guide includes:
+
+- **Clear objectives** and outcomes
+- **Step-by-step processes** with decision frameworks
+- **Templates and checklists** you can adapt
+- **Regulatory guidance** with compliance requirements
+- **Real-world examples** and best practices
+
+---
+
+<div class="cta-section" markdown="1">
+
+### Ready to Begin?
+
+[**Start with the 7-Day Quick Start Guide →**](getting-started/quick-start.md){ .md-button .md-button--primary }
+
+Or explore the [**Executive Summary**](getting-started/executive-summary.md) for a comprehensive overview.
+
+</div>
+
+---
+
+*HelpWorks Housing Portal • Version 1.2 • December 2025*

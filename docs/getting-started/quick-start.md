@@ -47,7 +47,7 @@ The first seven days set the tone for your entire project. This playbook ensures
 
 **First 7 Days Action Timeline (Gantt View)**
 
-```
+```text
 TRACK                  DAY 1    DAY 2    DAY 3    DAY 4    DAY 5    DAY 6    DAY 7
 ═══════════════════════════════════════════════════════════════════════════════════
 
@@ -79,8 +79,7 @@ TRACK                  DAY 1    DAY 2    DAY 3    DAY 4    DAY 5    DAY 6    DAY
                                                                         Board    Week 2
                                                                         Brief    Plan
 
-█ = Active Work    . = No Activity    ↓ = Dependency/Handoff
-```
+█ = Active Work    . = No Activity    ↓ = Dependency/Handoff```
 
 **Critical Path (Red = Must Complete):**
 - 🔴 Day 1: Land Registry search (blocks all site-specific work)
@@ -119,7 +118,7 @@ TRACK                  DAY 1    DAY 2    DAY 3    DAY 4    DAY 5    DAY 6    DAY
   - Date-stamp all images (camera metadata or photo editing tool)
 
 - [ ] **Create project folder structure:**
-  ```
+  ```text
   [Project_Name]/
   ├── Legal/
   ├── Technical_Surveys/
@@ -247,7 +246,6 @@ TRACK                  DAY 1    DAY 2    DAY 3    DAY 4    DAY 5    DAY 6    DAY
   - **Influence** the project (media, cultural organizations, opinion leaders)
 
 **Stakeholder Power/Interest Matrix**
-
 ```
                               HIGH POWER
                                   ↑
