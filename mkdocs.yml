@@ -2,8 +2,8 @@ site_name: Rotherhithe Theatre Manual
 site_url: https://rotherhithe.navigategov.uk
 site_author: Craig Cox
 site_description: Interactive Workbook and Guide for Venue Development
-repo_name: xenginex-site
-repo_url: https://github.com/ccoxuk/xenginex-site
+repo_name: rotherhithe
+repo_url: https://github.com/ccoxuk/rotherhithe
 
 nav:
   - Home: index.md
