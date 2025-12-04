@@ -1,20 +1,21 @@
 # Feedback & Support
 
-**HelpWorks Housing Portal** is designed to guide you to housing security. Your feedback helps us improve this tool for everyone.
+This manual is designed to evolve based on user experience and regulatory changes. Your feedback helps refine guidance for future theatre practitioners.
 
 <div class="interactive-block">
-    <h3>Your Feedback</h3>
-    <p>Please use this space to draft any feedback, issues, or suggestions you have regarding the portal or the guidance provided.</p>
+    <h3>Submit Feedback</h3>
+    <p>Please share any issues, suggestions, or improvements regarding the manual's content, structure, or usability.</p>
     <textarea id="feedback-note" class="user-note" placeholder="Type your feedback here..."></textarea>
 </div>
 
-## Contact Us
+## Contact
 
-If you need technical support or wish to submit your feedback formally:
+For technical support, content queries, or to report errors:
 
-*   **Email:** [support@helpworks.navigategov.uk](mailto:support@helpworks.navigategov.uk)
-*   **Subject Line:** Feedback - HelpWorks Housing Portal
+*   **Email:** [manual@navigategov.uk](mailto:manual@navigategov.uk)
+*   **Subject Line:** Rotherhithe Theatre Manual Feedback
 
 ---
 
-*Guiding you to housing security.*
+**Version Control:** v1.2 \u2022 Last Updated: 4 December 2025  
+**Maintenance:** This manual is reviewed quarterly for regulatory updates and user-reported issues.

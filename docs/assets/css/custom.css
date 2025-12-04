@@ -1,17 +1,17 @@
-/* HelpWorks Housing Portal - Elite Design System */
+/* Rotherhithe Theatre Project Manual - Professional Design System */
 
 :root {
-    /* Brand Palette */
-    --hw-navy: #1C2430;
-    --hw-ivory: #F4EFE5;
-    --hw-charcoal: #2D2D2D;
-    --hw-brass: #C2A46D;
-    --hw-deep-navy: #151b24;
+    /* Brand Palette - Professional Theatre/Arts Identity */
+    --rtp-navy: #1C2430;
+    --rtp-ivory: #F4EFE5;
+    --rtp-charcoal: #2D2D2D;
+    --rtp-brass: #C2A46D;
+    --rtp-deep-navy: #151b24;
     
     /* Material Theme Overrides */
-    --md-primary-fg-color: var(--hw-navy);
-    --md-primary-bg-color: var(--hw-ivory);
-    --md-accent-fg-color: var(--hw-brass);
+    --md-primary-fg-color: var(--rtp-navy);
+    --md-primary-bg-color: var(--rtp-ivory);
+    --md-accent-fg-color: var(--rtp-brass);
     
     /* Typography Scale */
     --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -27,11 +27,11 @@
 
 /* Premium Light Mode */
 [data-md-color-scheme="default"] {
-    --md-default-bg-color: var(--hw-ivory);
-    --md-default-fg-color: var(--hw-charcoal);
+    --md-default-bg-color: var(--rtp-ivory);
+    --md-default-fg-color: var(--rtp-charcoal);
     --md-admonition-bg-color: #ffffff;
     --md-code-bg-color: #f8f6f3;
-    --md-code-fg-color: var(--hw-charcoal);
+    --md-code-fg-color: var(--rtp-charcoal);
 }
 
 /* Body & Base Typography */
@@ -49,7 +49,7 @@ body {
 /* Elegant Headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--md-typeset-h1-font-family) !important;
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
     font-weight: 600;
     letter-spacing: -0.02em;
     line-height: 1.2;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 3rem;
     margin-bottom: 1.25rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--hw-brass);
+    border-bottom: 2px solid var(--rtp-brass);
 }
 
 .md-typeset h3 {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
 }
 
 .md-typeset h4 {
@@ -87,8 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, var(--hw-navy) 0%, var(--hw-deep-navy) 100%);
-    color: var(--hw-ivory);
+    background: linear-gradient(135deg, var(--rtp-navy) 0%, var(--rtp-deep-navy) 100%);
+    color: var(--rtp-ivory);
     padding: 4rem 3rem;
     margin: -1.5rem -1.5rem 3rem -1.5rem;
     border-radius: 12px;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-section h2 {
-    color: var(--hw-brass);
+    color: var(--rtp-brass);
     border: none;
     font-size: 1.75rem;
     margin-bottom: 1rem;
@@ -107,13 +107,13 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.7;
     max-width: 700px;
     margin: 0 auto;
-    color: var(--hw-ivory);
+    color: var(--rtp-ivory);
 }
 
 /* CTA Section */
 .cta-section {
     background: #ffffff;
-    border: 2px solid var(--hw-brass);
+    border: 2px solid var(--rtp-brass);
     border-radius: 8px;
     padding: 2.5rem;
     margin: 3rem 0;
@@ -122,13 +122,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-section h3 {
     margin-top: 0;
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
 }
 
 /* Premium Buttons */
 .md-button {
-    background: linear-gradient(135deg, var(--hw-navy) 0%, var(--hw-deep-navy) 100%);
-    color: var(--hw-ivory) !important;
+    background: linear-gradient(135deg, var(--rtp-navy) 0%, var(--rtp-deep-navy) 100%);
+    color: var(--rtp-ivory) !important;
     border-radius: 50px;
     padding: 0.75rem 2rem;
     font-weight: 600;
@@ -140,13 +140,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .md-button:hover {
-    background: var(--hw-brass);
+    background: var(--rtp-brass);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(194, 164, 109, 0.3);
 }
 
 .md-button--primary {
-    background: linear-gradient(135deg, var(--hw-brass) 0%, #b8995e 100%);
+    background: linear-gradient(135deg, var(--rtp-brass) 0%, #b8995e 100%);
 }
 
 /* Code Blocks - Premium Formatting */
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .md-typeset code {
     background: var(--md-code-bg-color);
-    color: var(--hw-charcoal);
+    color: var(--rtp-charcoal);
     padding: 0.2em 0.4em;
     border-radius: 4px;
     font-size: 0.9em;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Interactive Blocks */
 .interactive-block {
     background: #ffffff;
-    border-left: 4px solid var(--hw-brass);
+    border-left: 4px solid var(--rtp-brass);
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 8px;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .interactive-block h3 {
-    color: var(--hw-brass);
+    color: var(--rtp-brass);
     font-size: 1.25rem;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -209,13 +209,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
     line-height: 1.6;
     resize: vertical;
-    background: var(--hw-ivory);
+    background: var(--rtp-ivory);
     transition: border-color 0.2s ease;
 }
 
 .interactive-block textarea:focus {
     outline: none;
-    border-color: var(--hw-brass);
+    border-color: var(--rtp-brass);
     box-shadow: 0 0 0 3px rgba(194, 164, 109, 0.1);
 }
 
@@ -231,15 +231,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Links - Understated Elegance */
 .md-typeset a {
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
     text-decoration: none;
-    border-bottom: 1px solid var(--hw-brass);
+    border-bottom: 1px solid var(--rtp-brass);
     transition: all 0.2s ease;
 }
 
 .md-typeset a:hover {
-    color: var(--hw-brass);
-    border-bottom-color: var(--hw-navy);
+    color: var(--rtp-brass);
+    border-bottom-color: var(--rtp-navy);
 }
 
 /* Tables - Clean & Structured */
@@ -251,8 +251,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .md-typeset th {
-    background: var(--hw-navy);
-    color: var(--hw-ivory);
+    background: var(--rtp-navy);
+    color: var(--rtp-ivory);
     font-weight: 600;
     text-align: left;
     padding: 1rem;
@@ -269,35 +269,35 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Admonitions - Subtle & Professional */
 .md-typeset .admonition {
-    border-left: 4px solid var(--hw-brass);
+    border-left: 4px solid var(--rtp-brass);
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(28, 36, 48, 0.06);
 }
 
 .md-typeset .admonition-title {
     background: transparent;
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
     font-weight: 600;
 }
 
 /* Navigation - Simplified */
 .md-nav__item--active > .md-nav__link {
-    color: var(--hw-brass);
+    color: var(--rtp-brass);
     font-weight: 600;
 }
 
 .md-nav__link:hover {
-    color: var(--hw-brass);
+    color: var(--rtp-brass);
 }
 
 /* Footer */
 .md-footer {
-    background: var(--hw-navy);
-    color: var(--hw-ivory);
+    background: var(--rtp-navy);
+    color: var(--rtp-ivory);
 }
 
 .md-footer-meta {
-    background: var(--hw-deep-navy);
+    background: var(--rtp-deep-navy);
 }
 
 /* Responsive Refinements */
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .interactive-block h3 {
-    color: var(--hw-navy);
+    color: var(--rtp-navy);
     margin-top: 0;
 }
 
@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .user-note:focus {
-    border-color: var(--hw-navy);
+    border-color: var(--rtp-navy);
     outline: none;
     box-shadow: 0 0 0 3px rgba(28, 36, 48, 0.1);
 }
@@ -364,8 +364,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Buttons (Pill Shape) */
 .md-button {
     border-radius: 50px;
-    background: linear-gradient(to right, var(--hw-navy), var(--hw-deep-navy));
-    color: var(--hw-ivory) !important;
+    background: linear-gradient(to right, var(--rtp-navy), var(--rtp-deep-navy));
+    color: var(--rtp-ivory) !important;
     font-weight: 500;
     padding: 0.6em 1.4em;
     transition: transform 0.1s ease;
@@ -377,13 +377,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .md-button--primary {
-    background-color: var(--hw-navy) !important;
-    border-color: var(--hw-navy) !important;
+    background-color: var(--rtp-navy) !important;
+    border-color: var(--rtp-navy) !important;
 }
 
 /* Header Styling */
 .md-header {
-    background-color: var(--hw-navy) !important;
+    background-color: var(--rtp-navy) !important;
 }
 
 .md-header__title {
@@ -393,13 +393,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer Styling */
 .md-footer {
-    background-color: var(--hw-navy) !important;
+    background-color: var(--rtp-navy) !important;
 }
 
 /* Save Status Indicator */
 .save-status {
     font-size: 0.8rem;
-    color: var(--hw-brass);
+    color: var(--rtp-brass);
     margin-top: 5px;
     text-align: right;
     font-style: italic;

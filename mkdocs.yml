@@ -1,10 +1,10 @@
-site_name: HelpWorks Housing Portal
+site_name: Rotherhithe Theatre Project Manual
 site_url: https://rotherhithe.navigategov.uk
 site_author: Craig Cox
-site_description: Secure housing support and guidance
+site_description: Comprehensive guide to developing temporary and permanent theatre venues in complex urban environments
 repo_name: rotherhithe
 repo_url: https://github.com/ccoxuk/rotherhithe
-copyright: HelpWorks — Guiding you to housing security
+copyright: Rotherhithe Theatre Project Manual v1.2 • December 2025
 
 nav:
   - Home: index.md
