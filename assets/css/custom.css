@@ -1,0 +1,430 @@
+/* Rotherhithe Theatre Project Manual - Professional Design System */
+
+:root {
+    /* Brand Palette - Professional Theatre/Arts Identity */
+    --rtp-navy: #1C2430;
+    --rtp-ivory: #F4EFE5;
+    --rtp-charcoal: #2D2D2D;
+    --rtp-brass: #C2A46D;
+    --rtp-deep-navy: #151b24;
+    
+    /* Material Theme Overrides */
+    --md-primary-fg-color: var(--rtp-navy);
+    --md-primary-bg-color: var(--rtp-ivory);
+    --md-accent-fg-color: var(--rtp-brass);
+    
+    /* Typography Scale */
+    --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --md-code-font: "SF Mono", "Roboto Mono", "Courier New", monospace;
+    --md-typeset-h1-font-family: "Playfair Display", Georgia, serif;
+    --md-typeset-h2-font-family: "Playfair Display", Georgia, serif;
+    --md-typeset-h3-font-family: "Inter", sans-serif;
+    
+    /* Spacing & Layout */
+    --content-max-width: 900px;
+    --section-spacing: 4rem;
+}
+
+/* Premium Light Mode */
+[data-md-color-scheme="default"] {
+    --md-default-bg-color: var(--rtp-ivory);
+    --md-default-fg-color: var(--rtp-charcoal);
+    --md-admonition-bg-color: #ffffff;
+    --md-code-bg-color: #f8f6f3;
+    --md-code-fg-color: var(--rtp-charcoal);
+}
+
+/* Body & Base Typography */
+body {
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.md-content {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+
+/* Elegant Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--md-typeset-h1-font-family) !important;
+    color: var(--rtp-navy);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.md-typeset h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.md-typeset h2 {
+    font-size: 2.25rem;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--rtp-brass);
+}
+
+.md-typeset h3 {
+    font-family: "Inter", sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--rtp-navy);
+}
+
+.md-typeset h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--rtp-navy) 0%, var(--rtp-deep-navy) 100%);
+    color: var(--rtp-ivory);
+    padding: 4rem 3rem;
+    margin: -1.5rem -1.5rem 3rem -1.5rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.hero-section h2 {
+    color: var(--rtp-brass);
+    border: none;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--rtp-ivory);
+}
+
+/* CTA Section */
+.cta-section {
+    background: #ffffff;
+    border: 2px solid var(--rtp-brass);
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.cta-section h3 {
+    margin-top: 0;
+    color: var(--rtp-navy);
+}
+
+/* Premium Buttons */
+.md-button {
+    background: linear-gradient(135deg, var(--rtp-navy) 0%, var(--rtp-deep-navy) 100%);
+    color: var(--rtp-ivory) !important;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    border: none;
+    box-shadow: 0 4px 12px rgba(28, 36, 48, 0.15);
+    transition: all 0.3s ease;
+}
+
+.md-button:hover {
+    background: var(--rtp-brass);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(194, 164, 109, 0.3);
+}
+
+.md-button--primary {
+    background: linear-gradient(135deg, var(--rtp-brass) 0%, #b8995e 100%);
+}
+
+/* Code Blocks - Premium Formatting */
+.md-typeset pre {
+    background: var(--md-code-bg-color);
+    border: 1px solid rgba(28, 36, 48, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.md-typeset code {
+    background: var(--md-code-bg-color);
+    color: var(--rtp-charcoal);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: var(--md-code-font);
+}
+
+/* ASCII Art & Diagrams */
+.md-typeset pre code {
+    font-family: "SF Mono", "Monaco", "Consolas", monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Interactive Blocks */
+/* Interactive Blocks */
+.interactive-block {
+    background: #ffffff;
+    border-left: 4px solid var(--rtp-brass);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(28, 36, 48, 0.06);
+}
+
+.interactive-block h3 {
+    color: var(--rtp-brass);
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Inter", sans-serif !important;
+}
+
+.interactive-block textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 1rem;
+    border: 1px solid rgba(28, 36, 48, 0.15);
+    border-radius: 6px;
+    font-family: var(--md-text-font);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    resize: vertical;
+    background: var(--rtp-ivory);
+    transition: border-color 0.2s ease;
+}
+
+.interactive-block textarea:focus {
+    outline: none;
+    border-color: var(--rtp-brass);
+    box-shadow: 0 0 0 3px rgba(194, 164, 109, 0.1);
+}
+
+/* Lists - Refined Spacing */
+.md-typeset ul, .md-typeset ol {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.md-typeset li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links - Understated Elegance */
+.md-typeset a {
+    color: var(--rtp-navy);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rtp-brass);
+    transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+    color: var(--rtp-brass);
+    border-bottom-color: var(--rtp-navy);
+}
+
+/* Tables - Clean & Structured */
+.md-typeset table {
+    border: 1px solid rgba(28, 36, 48, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(28, 36, 48, 0.05);
+}
+
+.md-typeset th {
+    background: var(--rtp-navy);
+    color: var(--rtp-ivory);
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem;
+}
+
+.md-typeset td {
+    padding: 0.875rem 1rem;
+    border-bottom: 1px solid rgba(28, 36, 48, 0.06);
+}
+
+.md-typeset tr:last-child td {
+    border-bottom: none;
+}
+
+/* Admonitions - Subtle & Professional */
+.md-typeset .admonition {
+    border-left: 4px solid var(--rtp-brass);
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(28, 36, 48, 0.06);
+}
+
+.md-typeset .admonition-title {
+    background: transparent;
+    color: var(--rtp-navy);
+    font-weight: 600;
+}
+
+/* Navigation - Simplified */
+.md-nav__item--active > .md-nav__link {
+    color: var(--rtp-brass);
+    font-weight: 600;
+}
+
+.md-nav__link:hover {
+    color: var(--rtp-brass);
+}
+
+/* Footer */
+.md-footer {
+    background: var(--rtp-navy);
+    color: var(--rtp-ivory);
+}
+
+.md-footer-meta {
+    background: var(--rtp-deep-navy);
+}
+
+/* Responsive Refinements */
+@media screen and (max-width: 76.1875em) {
+    .md-typeset h1 {
+        font-size: 2.25rem;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.875rem;
+    }
+    
+    .hero-section {
+        padding: 3rem 2rem;
+        margin: -1rem -1rem 2rem -1rem;
+    }
+}
+
+@media screen and (max-width: 44.9375em) {
+    .md-typeset h1 {
+        font-size: 1.875rem;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-section {
+        padding: 2rem 1.5rem;
+    }
+    
+    .cta-section {
+        padding: 2rem;
+    }
+}
+
+
+.interactive-block h3 {
+    color: var(--rtp-navy);
+    margin-top: 0;
+}
+
+/* Textarea for user input */
+.user-note {
+    width: 100%;
+    min-height: 100px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-family: var(--md-text-font);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    resize: vertical;
+    background-color: #fafafa;
+    transition: all 0.2s ease;
+}
+
+.user-note:focus {
+    border-color: var(--rtp-navy);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(28, 36, 48, 0.1);
+}
+
+/* Buttons (Pill Shape) */
+.md-button {
+    border-radius: 50px;
+    background: linear-gradient(to right, var(--rtp-navy), var(--rtp-deep-navy));
+    color: var(--rtp-ivory) !important;
+    font-weight: 500;
+    padding: 0.6em 1.4em;
+    transition: transform 0.1s ease;
+}
+
+.md-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(28, 36, 48, 0.2);
+}
+
+.md-button--primary {
+    background-color: var(--rtp-navy) !important;
+    border-color: var(--rtp-navy) !important;
+}
+
+/* Header Styling */
+.md-header {
+    background-color: var(--rtp-navy) !important;
+}
+
+.md-header__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+/* Footer Styling */
+.md-footer {
+    background-color: var(--rtp-navy) !important;
+}
+
+/* Save Status Indicator */
+.save-status {
+    font-size: 0.8rem;
+    color: var(--rtp-brass);
+    margin-top: 5px;
+    text-align: right;
+    font-style: italic;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.save-status.visible {
+    opacity: 1;
+}
+
+/* Governance Note Styling (Admonition overrides if needed) */
+.admonition.governance {
+    border-left-color: #2c3e50;
+}
+.admonition.governance .admonition-title {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+/* Critical Safety Styling */
+.admonition.critical {
+    border-left-color: #e74c3c;
+}
+.admonition.critical .admonition-title {
+    background-color: #e74c3c;
+    color: #fff;
+}
