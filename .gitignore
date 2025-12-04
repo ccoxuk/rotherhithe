@@ -1,6 +1,32 @@
+# Build artifacts
 site/
+.cache/
+
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-.env
+*.pyo
+*.pyd
+.Python
+env/
 venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# Local config
+.env

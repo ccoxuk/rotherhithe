@@ -5,7 +5,7 @@ services:
     build: .
     container_name: rotherhithe-manual
     ports:
-      - "8000:8000"
+      - "80:8000"
     volumes:
       - .:/docs
     restart: unless-stopped

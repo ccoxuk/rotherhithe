@@ -1,5 +1,8 @@
 # Rotherhithe Theatre Project Manual - Digital Edition
 
+[![Build Status](https://github.com/ccoxuk/rotherhithe/actions/workflows/publish.yml/badge.svg)](https://github.com/ccoxuk/rotherhithe/actions/workflows/publish.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains the source code and content for the interactive digital edition of the **Rotherhithe Theatre Project Manual**.
 
 The site is built using **MkDocs** with the **Material** theme, designed to be a "living workbook" for venue development projects.
@@ -17,7 +20,7 @@ The easiest way to run the site is using Docker. You do not need to install Pyth
    ```bash
    docker compose up --build
    ```
-3. Open your browser to **[http://localhost:8000](http://localhost:8000)**.
+3. Open your browser to **[http://localhost](http://localhost)** (Port 80).
 
 The site will automatically reload if you edit any files in the `docs/` folder.
 
@@ -47,7 +50,12 @@ If you prefer to run it natively on your machine:
     - **`specialist/`**: Deep-dive guides (Rail Safety, Finance, etc.).
     - **`toolkit/`**: Templates and checklists.
     - **`assets/`**: CSS and JavaScript files.
+- **`scripts/`**: Utility scripts (e.g., content splitters).
 - **`mkdocs.yml`**: The main configuration file (navigation, theme settings).
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - **`Dockerfile`**: Configuration for the Docker container.
 
 ## 📝 Editing Content
