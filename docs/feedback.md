@@ -2,10 +2,11 @@
 
 **HelpWorks Housing Portal** is designed to guide you to housing security. Your feedback helps us improve this tool for everyone.
 
-::: interactive-block
-**Your Feedback**
-Please use this space to draft any feedback, issues, or suggestions you have regarding the portal or the guidance provided.
-:::
+<div class="interactive-block">
+    <h3>Your Feedback</h3>
+    <p>Please use this space to draft any feedback, issues, or suggestions you have regarding the portal or the guidance provided.</p>
+    <textarea id="feedback-note" class="user-note" placeholder="Type your feedback here..."></textarea>
+</div>
 
 ## Contact Us
 

@@ -9,7 +9,7 @@ This document is your "Project Bible". It contains the full guidance from the or
 
 **Instructions:**
 1. **Read** the guidance in each section.
-2. **Complete** the "Interactive Block" at the end of the section (look for the `:::` markers).
+2. **Complete** the "Interactive Block" at the end of the section.
 3. **Save** this file as `My_Project_Workbook.md`.
 4. **Update** it weekly as your project progresses.
 
